@@ -14,3 +14,4 @@ I used yelp API to gather all the restaurants listing across London (within radi
 # 2. Data Cleaning
 # 3. EDA
 # [ 4. Tableau Public](https://public.tableau.com/profile/jas2719#!/vizhome/restuarants_yelp/YELP)
+![](tableau.png)
