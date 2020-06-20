@@ -6,9 +6,10 @@ I used yelp API to gather all the restaurants listing across London (within radi
 
 **Python Version**: 3.7
 
-**Packages**: pandas, numpy, sklearn, matplotlib, seaborn,json, pickle
+**Packages**: pandas, numpy, matplotlib, seaborn,json
 
-**API Resource**: https://github.com/justinmlam/foodcouver/blob/master/gather_data.ipynb
+**API Resource**: https://github.com/justinmlam/foodcouver/blob/master/gather_data.ipynb  (API Example)
+**API Resource**: https://gist.github.com/cristinecula/c7b1c6aa5ddb74789db9  (categories Restaurants) 
 
 # 1. API 
 I was able to connect through API using the requests library with Yelp authentication (API key and Client ID) and used  categories of restaurants (Chinese, Indian,etc) provided by yelp to pull all different  type of restaurants listed in London. After that I pulled all the relevant details about the restaurant and convert the data into DataFrame. 
