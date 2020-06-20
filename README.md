@@ -1,6 +1,13 @@
 # Yelp Restaurants Reviews: Data Analysis Project
 I used yelp API to gather all the restaurants listing across London (within radius of 25km) and used python to analysis the data.
 
+1 - Extracting the data using Rest API method
+
+2 - Load the data on to Python and clean the data 
+
+3 - Carried out EDA on 10k+ Restaurants and finding popular restaurants by reviews and rating.
+
+4 - Created a Dashboard inside Tableau that allows users to explore restaurants across London.
 
 # Code and Resources Used
 
@@ -9,6 +16,7 @@ I used yelp API to gather all the restaurants listing across London (within radi
 **Packages**: pandas, numpy, matplotlib, seaborn,json
 
 **API Resource**: https://github.com/justinmlam/foodcouver/blob/master/gather_data.ipynb  (API Example)
+
 **API Resource**: https://gist.github.com/cristinecula/c7b1c6aa5ddb74789db9  (categories Restaurants) 
 
 # 1. API 
