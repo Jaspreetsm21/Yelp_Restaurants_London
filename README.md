@@ -19,17 +19,17 @@ This project extract the data from Yelp API to gather all the restaurants listin
 
 **API Resource**: https://gist.github.com/cristinecula/c7b1c6aa5ddb74789db9  (categories Restaurants) 
 
-# 1. API 
+# [1. API](https://github.com/Jaspreetsm21/Yelp_Restaurants_Reviews_Analysis/blob/master/API.ipynb)
 I was able to connect through API using the requests library with Yelp authentication (API key and Client ID) and used  categories of restaurants (Chinese, Indian,etc) provided by yelp to pull all different  type of restaurants listed in London. After that I pulled all the relevant details about the restaurant and convert the data into DataFrame. 
 
 
-# 2. Data Cleaning
+# [2. Data Cleaning](https://github.com/Jaspreetsm21/Yelp_Restaurants_Reviews_Analysis/blob/master/Data%20Cleaning.ipynb)
 
 After downloading the data, I needed to clean it up so that it was usable for our analysis. I had to deal with missing values some of them were dealt manually and other such as missing postcode I filled in the missing values with London central postcode because it was irrelevant to our analysis.
 
 - Changing the Price column to object type and replacing the values from (Unknown,£,££,£££,££££) to (0,1,2,3,4) as it states the price of the restaurants. 
 
-# 3. EDA
+# [3. EDA](https://github.com/Jaspreetsm21/Yelp_Restaurants_Reviews_Analysis/blob/master/EDA.ipynb)
 
 ![](images/category.PNG)
 ![](images/avg_review.PNG)
@@ -41,8 +41,7 @@ After downloading the data, I needed to clean it up so that it was usable for ou
 ![](images/price%20££.PNG)
 ![](images/price%20£££.PNG)
 ![](images/price%20££££.PNG)
-![](images/price%20area.PNG)
-![](images/area%20rating.PNG)
+![](images/price%20area.PNG) ![](images/area%20rating.PNG)
 
 # Insight
 - There are 800+ Italian and Indian restaurants across London and there are 179 different categories of restaurants. London is known for its multi culture food in the UK and there are 29 different type of categories with more than 100 restaurants.
