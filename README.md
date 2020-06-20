@@ -13,5 +13,21 @@ I used yelp API to gather all the restaurants listing across London (within radi
 # 1. API 
 # 2. Data Cleaning
 # 3. EDA
+
+![](images/category.PNG)
+![](images/avg_review.PNG)
+![](images/rating.PNG)
+![](images/rating_distribution.PNG)
+![](tableau.png)
+![](tableau.png)
+![](images/borough.PNG)
+![](images/price%20unknown.PNG)
+![](images/price%20£.PNG)
+![](images/price%20££.PNG)
+![](images/price%20£££.PNG)
+![](timages/price%20££££.PNG)
+![](images/price%20area.PNG)
+![](images/area%20rating.PNG)
+
 # [ 4. Tableau Public](https://public.tableau.com/profile/jas2719#!/vizhome/restuarants_yelp/YELP)
 ![](tableau.png)
