@@ -8,9 +8,12 @@ I used yelp API to gather all the restaurants listing across London (within radi
 
 **Packages**: pandas, numpy, sklearn, matplotlib, seaborn,json, pickle
 
-**Scraper Resource**: https://stackoverflow.com/questions/60012952/how-to-code-a-for-loop-in-python-for-a-web-scraper
+**API Resource**: https://github.com/justinmlam/foodcouver/blob/master/gather_data.ipynb
 
 # 1. API 
+I was able to connect through API using the requests library with Yelp authentication (API key and Client ID) and used  categories of restaurants (Chinese, Indian,etc) provided by yelp to pull all different  type of restaurants listed in London. After that I pulled all the relevant details about the restaurant and convert the data into DataFrame. 
+
+
 # 2. Data Cleaning
 
 After downloading the data, I needed to clean it up so that it was usable for our analysis. I had to deal with missing values some of them were dealt manually and other such as missing postcode I filled in the missing values with London central postcode because it was irrelevant to our analysis.
