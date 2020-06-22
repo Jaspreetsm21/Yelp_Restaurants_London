@@ -34,7 +34,7 @@ After downloading the data, I needed to clean it up so that it was usable for ou
 ![](images/category.PNG)
 ![](images/avg_review.PNG)
 ![](images/rating.PNG)
-![](images/rating_distribution.PNG)
+![](images/rating_distribution2.PNG)
 ![](images/borough.PNG)
 ![](images/price%20unknown.PNG)
 ![](images/price%20£.PNG)
