@@ -1,8 +1,12 @@
 # Yelp Restaurants Reviews: Data Analysis Project
 This project extracts the data from Yelp API to gather all the restaurants listing across London (within a radius of 25km) and used python to analyse the data.
+
 1 - Extracting the data using the Rest API method
+
 2 - Load the data on to Python and clean the data
+
 3 - Carried out EDA on 10k+ Restaurants and finding popular restaurants by reviews and ratings.
+
 4 - Created a Dashboard inside Tableau that allows users to explore restaurants across London.
 
 # Code and Resources Used
